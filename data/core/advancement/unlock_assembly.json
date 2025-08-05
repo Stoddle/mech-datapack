@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "pickup_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_ingot"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "core:assembly_station"
+    ]
+  }
+}

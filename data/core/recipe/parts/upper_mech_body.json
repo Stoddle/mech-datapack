@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "iii",
+    "isi",
+    "iri"
+  ],
+  "key": {
+    "i": "minecraft:iron_block",
+    "s": "minecraft:saddle",
+    "r": "redstone_block"
+  },
+  "result": {
+    "id": "echo_shard",
+    "components": {
+      "minecraft:item_name": "Upper Mech Body",
+      "minecraft:item_model": "mech:mech_parts/upper_body",
+      "minecraft:rarity": "common",
+      "minecraft:max_stack_size": 1,
+      "minecraft:custom_data": {
+        "mechItemID": 1
+      }
+    }
+  }
+}

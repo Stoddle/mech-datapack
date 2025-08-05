@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "right_click_mech": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "nbt": "{Tags:[\"assemblyStation\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "core:items/assembly_station/right_click"
+  }
+}

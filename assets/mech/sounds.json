@@ -1,0 +1,12 @@
+{
+       "step": {
+              "sounds": [
+                     "mech:mech/step"
+              ]
+       },
+       "hydraulic": {
+              "sounds": [
+                     "mech:mech/simple_hydraulic"
+              ]
+       }
+}

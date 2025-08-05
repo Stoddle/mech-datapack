@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "right_click_mech": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "nbt": "{Tags:[\"mechInteraction\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "core:mech/left_click_mech"
+  }
+}

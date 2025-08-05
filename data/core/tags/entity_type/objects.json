@@ -1,0 +1,28 @@
+{
+    "values": [
+      "item",
+      "minecart",
+      "area_effect_cloud",
+      "#arrows",
+      "armor_stand",
+      "marker",
+      "item_display",
+      "block_display",
+      "text_display",
+      "ender_pearl",
+      "falling_block",
+      "firework_rocket",
+      "#boat",
+      "item_frame",
+      "glow_item_frame",
+      "interaction",
+      "fishing_bobber",
+      "experience_bottle",
+      "experience_orb",
+      "painting",
+      "egg",
+      "snowball",
+      "fireball",
+      "dragon_fireball"
+    ]
+  }

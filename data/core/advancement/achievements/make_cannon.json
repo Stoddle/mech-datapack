@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:knowledge_book",
+      "components": {
+        "minecraft:item_model": "mech:mech_parts/cannon"
+      }
+    },
+    "title": "Collateral Damage",
+    "description": "Make a Cannon Arm Attachment",
+    "frame": "task"
+  },
+  "parent": "core:achievements/assemble_mech",
+  "criteria": {
+    "craft_arm": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "core:parts/cannon_arm"
+      }
+    }
+  }
+}

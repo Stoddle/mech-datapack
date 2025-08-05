@@ -1,0 +1,1 @@
+execute on vehicle if predicate core:is_on_ground run function core:mech/movement/apply_jump

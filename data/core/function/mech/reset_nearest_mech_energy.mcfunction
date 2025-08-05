@@ -1,0 +1,1 @@
+execute as @n[tag=mech] run function core:mech/reset_target_mech_energy

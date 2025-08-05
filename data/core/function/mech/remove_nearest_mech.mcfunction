@@ -1,0 +1,1 @@
+execute as @n[tag=mech] run function core:mech/remove_selected_mech

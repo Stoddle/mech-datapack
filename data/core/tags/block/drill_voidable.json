@@ -1,0 +1,15 @@
+{
+    "values":
+    [
+        "#minecraft:air",
+        "bubble_column",
+        "minecraft:water",
+        "minecraft:lava",
+        "minecraft:bedrock",
+        "end_gateway",
+        "end_portal",
+        "end_portal_frame",
+        "light",
+        "nether_portal"
+    ]
+}

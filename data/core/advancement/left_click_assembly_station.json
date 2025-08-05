@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "right_click_mech": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "nbt": "{Tags:[\"assemblyStation\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "core:items/assembly_station/left_click"
+  }
+}

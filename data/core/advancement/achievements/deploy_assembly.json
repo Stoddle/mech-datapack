@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:knowledge_book",
+      "components": {
+        "minecraft:item_model": "mech:other/assembly_station"
+      }
+    },
+    "title": "Let's Get To Work",
+    "description": "Deploy a Mech Assembly Station for the first time",
+    "background": "minecraft:block/iron_block",
+    "frame": "task"
+  },
+    "criteria": {
+    "manual_trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "core:parts/upper_mech_body",
+      "core:parts/lower_mech_body",
+      "core:energy_cell_empty"
+    ]
+  }
+}

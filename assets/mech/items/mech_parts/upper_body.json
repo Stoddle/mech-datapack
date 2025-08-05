@@ -1,0 +1,262 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "entries": [
+            {
+                "threshold": 1,
+                "model": {
+                    "type": "select",
+                    "property": "custom_model_data",
+                    "cases": [
+                        {
+                            "when": "minecraft:white_dye",
+                            "model": {
+                                "type": "model",
+                                "model": "mech:mech_parts/upper_body/upper_body_white"
+                            }
+                        },
+                        {
+                            "when": "minecraft:orange_dye",
+                            "model": {
+                                "type": "model",
+                                "model": "mech:mech_parts/upper_body/upper_body_orange"
+                            }
+                        },
+                        {
+                            "when": "minecraft:magenta_dye",
+                            "model": {
+                                "type": "model",
+                                "model": "mech:mech_parts/upper_body/upper_body_magenta"
+                            }
+                        },
+                        {
+                            "when": "minecraft:light_blue_dye",
+                            "model": {
+                                "type": "model",
+                                "model": "mech:mech_parts/upper_body/upper_body_light_blue"
+                            }
+                        },
+                        {
+                            "when": "minecraft:yellow_dye",
+                            "model": {
+                                "type": "model",
+                                "model": "mech:mech_parts/upper_body/upper_body_yellow"
+                            }
+                        },
+                        {
+                            "when": "minecraft:lime_dye",
+                            "model": {
+                                "type": "model",
+                                "model": "mech:mech_parts/upper_body/upper_body_lime"
+                            }
+                        },
+                        {
+                            "when": "minecraft:pink_dye",
+                            "model": {
+                                "type": "model",
+                                "model": "mech:mech_parts/upper_body/upper_body_pink"
+                            }
+                        },
+                        {
+                            "when": "minecraft:gray_dye",
+                            "model": {
+                                "type": "model",
+                                "model": "mech:mech_parts/upper_body/upper_body_default"
+                            }
+                        },
+                        {
+                            "when": "minecraft:light_gray_dye",
+                            "model": {
+                                "type": "model",
+                                "model": "mech:mech_parts/upper_body/upper_body_default"
+                            }
+                        },
+                        {
+                            "when": "minecraft:cyan_dye",
+                            "model": {
+                                "type": "model",
+                                "model": "mech:mech_parts/upper_body/upper_body_cyan"
+                            }
+                        },
+                        {
+                            "when": "minecraft:purple_dye",
+                            "model": {
+                                "type": "model",
+                                "model": "mech:mech_parts/upper_body/upper_body_purple"
+                            }
+                        },
+                        {
+                            "when": "minecraft:blue_dye",
+                            "model": {
+                                "type": "model",
+                                "model": "mech:mech_parts/upper_body/upper_body_blue"
+                            }
+                        },
+                        {
+                            "when": "minecraft:brown_dye",
+                            "model": {
+                                "type": "model",
+                                "model": "mech:mech_parts/upper_body/upper_body_brown"
+                            }
+                        },
+                        {
+                            "when": "minecraft:green_dye",
+                            "model": {
+                                "type": "model",
+                                "model": "mech:mech_parts/upper_body/upper_body_green"
+                            }
+                        },
+                        {
+                            "when": "minecraft:red_dye",
+                            "model": {
+                                "type": "model",
+                                "model": "mech:mech_parts/upper_body/upper_body_red"
+                            }
+                        },
+                        {
+                            "when": "minecraft:black_dye",
+                            "model": {
+                                "type": "model",
+                                "model": "mech:mech_parts/upper_body/upper_body_black"
+                            }
+                        }
+                    ],
+                    "fallback": {
+                        "type": "model",
+                        "model": "mech:mech_parts/upper_body/upper_body_default"
+                    }
+                }
+            },
+            {
+                "threshold": 0,
+                "model": {
+                    "type": "select",
+                    "property": "custom_model_data",
+                    "cases": [
+                        {
+                            "when": "minecraft:white_dye",
+                            "model": {
+                                "type": "model",
+                                "model": "mech:mech_parts/upper_body/upper_body_white_off"
+                            }
+                        },
+                        {
+                            "when": "minecraft:orange_dye",
+                            "model": {
+                                "type": "model",
+                                "model": "mech:mech_parts/upper_body/upper_body_orange_off"
+                            }
+                        },
+                        {
+                            "when": "minecraft:magenta_dye",
+                            "model": {
+                                "type": "model",
+                                "model": "mech:mech_parts/upper_body/upper_body_magenta_off"
+                            }
+                        },
+                        {
+                            "when": "minecraft:light_blue_dye",
+                            "model": {
+                                "type": "model",
+                                "model": "mech:mech_parts/upper_body/upper_body_light_blue_off"
+                            }
+                        },
+                        {
+                            "when": "minecraft:yellow_dye",
+                            "model": {
+                                "type": "model",
+                                "model": "mech:mech_parts/upper_body/upper_body_yellow_off"
+                            }
+                        },
+                        {
+                            "when": "minecraft:lime_dye",
+                            "model": {
+                                "type": "model",
+                                "model": "mech:mech_parts/upper_body/upper_body_lime_off"
+                            }
+                        },
+                        {
+                            "when": "minecraft:pink_dye",
+                            "model": {
+                                "type": "model",
+                                "model": "mech:mech_parts/upper_body/upper_body_pink_off"
+                            }
+                        },
+                        {
+                            "when": "minecraft:gray_dye",
+                            "model": {
+                                "type": "model",
+                                "model": "mech:mech_parts/upper_body/upper_body_default_off"
+                            }
+                        },
+                        {
+                            "when": "minecraft:light_gray_dye",
+                            "model": {
+                                "type": "model",
+                                "model": "mech:mech_parts/upper_body/upper_body_default_off"
+                            }
+                        },
+                        {
+                            "when": "minecraft:cyan_dye",
+                            "model": {
+                                "type": "model",
+                                "model": "mech:mech_parts/upper_body/upper_body_cyan_off"
+                            }
+                        },
+                        {
+                            "when": "minecraft:purple_dye",
+                            "model": {
+                                "type": "model",
+                                "model": "mech:mech_parts/upper_body/upper_body_purple_off"
+                            }
+                        },
+                        {
+                            "when": "minecraft:blue_dye",
+                            "model": {
+                                "type": "model",
+                                "model": "mech:mech_parts/upper_body/upper_body_blue_off"
+                            }
+                        },
+                        {
+                            "when": "minecraft:brown_dye",
+                            "model": {
+                                "type": "model",
+                                "model": "mech:mech_parts/upper_body/upper_body_brown_off"
+                            }
+                        },
+                        {
+                            "when": "minecraft:green_dye",
+                            "model": {
+                                "type": "model",
+                                "model": "mech:mech_parts/upper_body/upper_body_green_off"
+                            }
+                        },
+                        {
+                            "when": "minecraft:red_dye",
+                            "model": {
+                                "type": "model",
+                                "model": "mech:mech_parts/upper_body/upper_body_red_off"
+                            }
+                        },
+                        {
+                            "when": "minecraft:black_dye",
+                            "model": {
+                                "type": "model",
+                                "model": "mech:mech_parts/upper_body/upper_body_black_off"
+                            }
+                        }
+                    ],
+                    "fallback": {
+                        "type": "model",
+                        "model": "mech:mech_parts/upper_body/upper_body_default_off"
+                    }
+                }
+            }
+        ],
+        "fallback": {
+            "type": "model",
+            "model": "mech:mech_parts/upper_body/upper_body_default"
+        }
+    }
+}

@@ -1,0 +1,1 @@
+give @p bat_spawn_egg[item_name="Assembly Station",item_model="mech:other/assembly_station",entity_data={id:"minecraft:interaction",width:4b,height:4b,Tags:["newAssemblyStation","assemblyStation"]}] 1

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "iri",
+    "i i",
+    "p p"
+  ],
+  "key": {
+    "i": "minecraft:iron_block",
+    "p": "minecraft:piston",
+    "r": "redstone_block"
+  },
+  "result": {
+    "id": "echo_shard",
+    "components": {
+      "minecraft:item_name": "Lower Mech Body",
+      "minecraft:item_model": "mech:mech_parts/lower_body",
+      "minecraft:rarity": "common",
+      "minecraft:max_stack_size": 1,
+      "minecraft:custom_data": {
+        "mechItemID": 2
+      }
+    }
+  }
+}

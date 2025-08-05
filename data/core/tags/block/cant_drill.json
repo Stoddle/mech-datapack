@@ -1,0 +1,23 @@
+{
+    "values":
+    [
+        "#air",
+        "water",
+        "lava",
+        "bedrock",
+        "command_block",
+        "repeating_command_block",
+        "chain_command_block",
+        "structure_block",
+        "structure_void",
+        "barrier",
+        "spawner",
+        "vault",
+        "chest",
+        "trial_spawner",
+        "end_portal",
+        "end_gateway",
+        "end_portal_frame",
+        "nether_portal"
+    ]
+}

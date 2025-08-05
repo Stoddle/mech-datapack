@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:knowledge_book",
+      "components": {
+        "minecraft:item_model": "mech:mech_parts/precision"
+      }
+    },
+    "title": "Don't Miss",
+    "description": "Make a Precision Beam Arm Attachment",
+    "frame": "task"
+  },
+  "parent": "core:achievements/assemble_mech",
+  "criteria": {
+    "craft_arm": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "core:parts/precision_arm"
+      }
+    }
+  }
+}

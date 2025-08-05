@@ -1,0 +1,4 @@
+execute store result score .tempHealth mechHealth run scoreboard players get @s mechHealth
+execute if score @s mechHealth matches 60..100 run return run data merge entity @n[tag=mechHPDisplay] {text:[{"score":{"name":".tempHealth","objective":"mechHealth"},"color":"green"},{"text":"%","color":"green"}]}
+execute if score @s mechHealth matches 21..59 run return run data merge entity @n[tag=mechHPDisplay] {text:[{"score":{"name":".tempHealth","objective":"mechHealth"},"color":"yellow"},{"text":"%","color":"yellow"}]}
+execute if score @s mechHealth matches 0..20 run return run data merge entity @n[tag=mechHPDisplay] {text:[{"score":{"name":".tempHealth","objective":"mechHealth"},"color":"red"},{"text":"%","color":"red"}]}

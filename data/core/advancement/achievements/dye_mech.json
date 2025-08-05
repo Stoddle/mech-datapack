@@ -1,0 +1,16 @@
+{
+  "display": {
+    "icon": {
+      "id": "pink_dye"
+    },
+    "title": "Pimp My Ride",
+    "description": "Dye a nech",
+    "frame": "challenge"
+  },
+  "parent": "core:achievements/assemble_mech",
+  "criteria": {
+    "dye_mech": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

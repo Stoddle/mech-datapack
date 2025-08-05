@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "use_cell": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": "{mechItemID: 4b}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "core:items/energy_cell/use_empty_energy_cell"
+  }
+}

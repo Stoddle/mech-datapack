@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "ppp",
+    "icc",
+    "n  "
+  ],
+  "key": {
+    "i": "minecraft:iron_block",
+    "p": "minecraft:lightning_rod",
+    "c": "cauldron",
+    "n": "netherite_ingot"
+  },
+  "result": {
+    "id": "echo_shard",
+    "components": {
+      "minecraft:item_name": "Precision Arm Attachment",
+      "minecraft:item_model": "mech:mech_parts/precision",
+      "minecraft:rarity": "common",
+      "minecraft:max_stack_size": 1,
+      "minecraft:custom_data": {
+        "mechItemID": 7,
+        "mechArmID": 2
+      },
+      "minecraft:lore": [
+        {
+          "text": "Right-Click a mech to mount this attachment",
+          "color": "gray",
+          "italic": false
+        }
+      ]
+    }
+  }
+}

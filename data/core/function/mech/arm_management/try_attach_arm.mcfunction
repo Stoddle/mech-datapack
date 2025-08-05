@@ -1,0 +1,3 @@
+$execute unless score @n[tag=mech,scores={mechID=$(selectedMechID)}] rightArmID matches 1.. run return run function core:mech/arm_management/attach_right_arm with storage mech
+$execute unless score @n[tag=mech,scores={mechID=$(selectedMechID)}] leftArmID matches 1.. run return run function core:mech/arm_management/attach_left_arm with storage mech
+tag @e[tag=selectedMechClick] remove selectedMechClick
